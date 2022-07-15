@@ -1,0 +1,83 @@
+@import "https://fonts.googleapis.com";
+@import "https://fonts.gstatic.com";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+@import "bootstrap.css";
+@import "owl.carousel.css";
+@import "styles.css";
+@import "media.css";
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+$main_font: 'Roboto';
+$black_color:black;
+*{
+  margin: 0;
+  padding: 0;
+}
+.ml-85{
+  margin-left: 85px;
+}
+.mr-68{
+  margin-right: 40px;
+}
+header{
+  nav{
+    .collapse{
+      .navbar-nav{
+        .nav-link:after{
+          font-family: "Font Awesome 6 Free",sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: white;
+        }
+        .nav-link{
+          font-family: 'Roboto', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #FFFFFF;
+          margin-right: 34px;
+        }
+      }
+    }
+  }
+}
+.mail_link{
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  margin-left: 66px;
+}
+.purchase_link{
+  background: #FF7143;
+  border-radius: 6px;
+  padding: 12px 32px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.main__section{
+  background: #FF7143;
+  h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #000000;
+    margin-top: 91px;
+    margin-bottom: 27px;
+  }
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 22px;
+  }
+}
