@@ -68,4 +68,30 @@ header nav .collapse .navbar-nav .nav-link {
     color: #000000;
     margin-bottom: 22px; }
 
+.knopka_black {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 20px 32px;
+  background-color: black;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-right: 4px; }
+
+.knopka_white {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  padding: 20px 32px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-left: 4px; }
+
 /*# sourceMappingURL=styles.css.map */
